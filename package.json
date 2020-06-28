@@ -1,0 +1,24 @@
+{
+  "name": "prueba-npm",
+  "version": "1.0.0",
+  "description": "es un repo de prueba para correr comandos npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass src/styles/styles.scss public/styles/style.css",
+    "watch:sass": "node-sass src/styles/styles.scss public/styles/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresGon/npmEnv.git"
+  },
+  "author": "@andresGon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresGon/npmEnv/issues"
+  },
+  "homepage": "https://github.com/andresGon/npmEnv#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
